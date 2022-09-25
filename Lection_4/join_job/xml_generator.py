@@ -19,7 +19,7 @@ def create(device=1):
     return xml
 
 
-def new_create(data, device = 1):
+def new_create(data, device=1):
     t, p, w = data
     t = t * 1.8 + 32
     xml = '<xml>\n'
@@ -35,4 +35,3 @@ def new_create(data, device = 1):
         page.write(xml)
 
     return data
-    
